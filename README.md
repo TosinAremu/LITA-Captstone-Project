@@ -10,5 +10,7 @@ This project outlines an analysis of two datasets-Sales Data and Customer Data. 
 #### Sales Data Overview
 The sales data consists of the following fields;
 - Products: Gloves, Hat, Jacket, Shirt, Shoes, Socks
+- Region: East, North, South, and West
+- Quantity: The number of units sold for each products are
 
 
