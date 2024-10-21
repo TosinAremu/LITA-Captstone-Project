@@ -25,6 +25,20 @@ The sales data consists of the following fields;
 - Average Sales Per Product: Shows the average revenue for each product type, providing insights into the best-selling products.
 - Sales by Region: A regional breakdown of sales figure, useful for identifying high-performance regions and underperforming ones.
 - Sales by Month: This metrics tracks the number of products sold in each months, highlighting the demand for specific products in each months.
-- Revenue by Region: This is the revenue generated, showing the profitability of by each region
+- Revenue by Region: This is the revenue generated, showing the profitability of by each region.
+
+#### Sales Analysis Approaches
+
+#### 1. Product Performance Analysis:
+- Objective: Determine which products contribute the most to tal sales.
+- Analysis: This analysis evaluates each product's total sales, average selling price and sales volume. It will identify high-revenue products and those with high sales volume but lowe revenue due to lower prices.
+
+#### 2. Regional Sales Breakdown:
+- Objectice: Understand how sales performance varies across different regions.
+- Analysis: Grouping the sales data by region. we can calculate total sales, average quantity sold, and the average price in each region. This helps identify regions that needs attention or marketing focus and those where performance is already strong.
+
+#### 3. Price vs Quantity Analysis:
+- Objective: Assess the impact of pricing on sales volume.
+- Analysis: By comparing the price per unit to the number of units sold, this analysis examines price elasticity and its influence on customer purchasing decisions. Products with high demand but low unit prices can indicate potential for price adjustments.
 
 
