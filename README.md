@@ -48,9 +48,24 @@ The sales data consists of the following fields;
 - Objective: Assess the impact of pricing on sales volume.
 - Analysis: By comparing the price per unit to the number of units sold, this analysis examines price elasticity and its influence on customer purchasing decisions. Products with high demand but low unit prices can indicate potential for price adjustments.
 
+```SQL
 SELECT Product, SUM(Quantity * UnitPrice) AS Total_Sales
 FROM SalesData
 GROUP By Product
+```
+
+```SQL
+SELECT Region, COUNT(*) AS Total_Sales_Value
+FROM SalesData
+GROUP By Region
+```
+
+```SQL
+SELECT TOP 1 Product, Sum(Quantity * UnitPrice) AS Total_Sales_Value
+FROM SalesData
+GROUP By Product
+ORDER By Total_Sales_Value DESC
+```
 
 ### Customer Data: Subscription Service Analysis
 #### Objective
