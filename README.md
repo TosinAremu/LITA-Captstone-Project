@@ -49,6 +49,9 @@ This project involves analyzing customer data for a subscription service to iden
 
 #### Customer Data Overview
 The customer data includes fields related to customer subscription behavior;
-- Region: Geographic areas where the customer resides (North, East, West, South)
-- Subscription: categories of subscriptions (Basic, Premium
+- Region: Geographic areas where the customer resides (North, East, West and South)
+- Subscription Type: categories of subscriptions (Basic, Premium and Standard)
+- Subscription Start: This is the date the customer began their subscription which was 31st January 2022.
+- Subscription End: The is date the subscription ended which was 31st August 2024.
+- Cancellation Status: 
 
