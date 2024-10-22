@@ -53,10 +53,31 @@ The customer data includes fields related to customer subscription behavior;
 - Subscription Type: categories of subscriptions (Basic, Premium and Standard)
 - Subscription Start: This is the date the customer began their subscription which was 31st January 2022.
 - Subscription End: The is date the subscription ended which was 31st August 2024.
-- Cancellation Status: The table below shows the the number of active and cancellation status.
+- Cancellation Status: The table below shows the the number of active and cancellation status using the count formula.
   
-|Table 1|Table 2|Table 3|
+|Table |True|False|
 |-------|-------|-------|
-|Cancellation|True|False|
-|Active|True|False|
+|Cancellation|33751|NIL|
+|Active|NIL|41251|
+
+#### Key Metrics for Customer Data
+- Active Subscription: The number of currently active subscriptions which is 41251.
+- Churn Rate: The percentage of customers who canceled their subscriptions which is ascertain to be 337.51%
+- Average Subscription Duration: The average time customers remain subscribed before cancellation, this is also calculated to be 365.
+
+#### Customer Data Analysis Approaches
+
+#### Churn Analysis
+- Objective: Identify trends in customer cancellation to help improve retention strategies.
+- Analysis: The churn rate is calculated by dividing the number of cancellations by the total number of subscriptions over a period. Additionally, analyzing the subscription type and customer region in relation to churn provides insights into specific segments with high cancellation rates.
+
+#### Subscription Duration Analysis:
+- Objective: Understand how long customers stay subscribed on average.
+- Analysis: By calculating the time between subscription start and end dates, we can identify the average subscription lifecycle. This analysis can reveal whether certain subscription types or regions have longer or shorter subscription durations.
+
+#### Regional Subscription Behaviour:
+- Objective: Compare subscription behaviour across region.
+- Analysis: Grouping customers by region and analyzing subscription types, cancellation rates, and average subscription duration helps identify geographic trends. This analysis can guide regional marketing efforts and localized retention campaingns.
+
+
 
