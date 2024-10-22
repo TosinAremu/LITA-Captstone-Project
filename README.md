@@ -5,7 +5,9 @@
 ### Introduction
 This project outlines an analysis of two datasets-Sales Data and Customer Data. The Sales Data focuses on products sold across various regions, their quantities, and prices, while Customer Data emphasizes subscription behaviour across different regions, including subscription types, cancellation rates and lifecycle (start and end dates). The analysis presented here provide insights into overall sales performance and customer engagement through subscription behaviour, helping stakeholders make informed busniess decisons.
 
-### Sales Data Analysis
+### Sales Data: Retail Store Sales Performance Analysis
+#### Objective
+The objective of this project is to analyze the sales performance of a retail store, focus on uncovering key insights such as top-selling products, regional performance, and monthly sales trend. This data-driven approach will guides strategic decisions for improving sales performance across various regions and produts.
 
 #### Sales Data Overview
 The sales data consists of the following fields;
@@ -31,7 +33,7 @@ The sales data consists of the following fields;
 
 #### 1. Product Performance Analysis:
 - Objective: Determine which products contribute the most to tal sales.
-- Analysis: This analysis evaluates each product's total sales, average selling price and sales volume. It will identify high-revenue products and those with high sales volume but lowe revenue due to lower prices.
+- Analysis: This analysis evaluates each product's total sales, average selling price and sales volume. It will identify high-revenue products and those with high sales volume but lower revenue due to lower prices.
 
 #### 2. Regional Sales Breakdown:
 - Objectice: Understand how sales performance varies across different regions.
@@ -41,4 +43,12 @@ The sales data consists of the following fields;
 - Objective: Assess the impact of pricing on sales volume.
 - Analysis: By comparing the price per unit to the number of units sold, this analysis examines price elasticity and its influence on customer purchasing decisions. Products with high demand but low unit prices can indicate potential for price adjustments.
 
+### Customer Data: Subscription Service Analysis
+#### Objective
+This project involves analyzing customer data for a subscription service to identify customer segments, track subscription types, and highlight trends in cancellations and renewals. The goal is to provide actionable insights into customer behaviour to help improve customer retention and optimize subscription offerings.
+
+#### Customer Data Overview
+The customer data includes fields related to customer subscription behavior;
+- Region: Geographic areas where the customer resides (North, East, West, South)
+- Subscription: categories of subscriptions (Basic, Premium
 
