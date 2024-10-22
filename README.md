@@ -53,5 +53,10 @@ The customer data includes fields related to customer subscription behavior;
 - Subscription Type: categories of subscriptions (Basic, Premium and Standard)
 - Subscription Start: This is the date the customer began their subscription which was 31st January 2022.
 - Subscription End: The is date the subscription ended which was 31st August 2024.
-- Cancellation Status: 
+- Cancellation Status: The table below shows the the number of active and cancellation status.
+  
+|Table 1|Table 2|Table 3|
+|-------|-------|-------|
+|Cancellation|True|False|
+|Active|True|False|
 
