@@ -42,7 +42,7 @@ The sales data consists of the following fields;
 #### Sales Analysis Approaches
 
 #### 1. Product Performance Analysis:
-- Objective: Determine which products contribute the most to tal sales.
+- Objective: Determine which products contribute the most total sales.
 - Analysis: This analysis evaluates each product's total sales, average selling price and sales volume. It will identify high-revenue products and those with high sales volume but lower revenue due to lower prices.
 
 #### 2. Regional Sales Breakdown:
