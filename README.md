@@ -39,6 +39,7 @@ The sales data consists of the following fields;
 #### 1. Data Import and Cleaning (Excel)
 - Imported the sales database from Learning Management System (LMS)
 - Cleaned and prepared the data by removing duplicates, handling missing values, and ensuring consistent formatting.
+- Created additional columns where necessary, such as total sales by multiplying price and quantity.
 - Created basic pivot tables and charts to identify initials trends.
 
 #### 2. Data Querying (SQL)
@@ -62,11 +63,6 @@ GROUP By OrderDate
   3. A line grapgh to showcase montly sales trends and seasonal spikes.
 - Set up slicers for products categories and regions to filteer data dynamically.
 
-#### Data Collection & Preparation
-1. Source of Data: CSV files, database exports, and spreadsheets containing sales data.
-2. Data Preparation: Cleaning the dataset to handle missing values, outliers, and inconsistent formats.
-3. Data Transformation: Creating additional columns where necessary, such as total sales by multiplying price and quantity.
-
 #### Sales Analysis Approaches
 
 #### 1. Product Performance Analysis:
@@ -80,27 +76,6 @@ GROUP By OrderDate
 #### 3. Price vs Quantity Analysis:
 - Objective: Assess the impact of pricing on sales volume.
 - Analysis: By comparing the price per unit to the number of units sold, this analysis examines price elasticity and its influence on customer purchasing decisions. Products with high demand but low unit prices can indicate potential for price adjustments.
-
-
-
-```SQL
-SELECT Product, SUM(Quantity * UnitPrice) AS Total_Sales
-FROM SalesData
-GROUP By Product
-```
-
-```SQL
-SELECT Region, COUNT(*) AS Total_Sales_Value
-FROM SalesData
-GROUP By Region
-```
-
-```SQL
-SELECT TOP 1 Product, Sum(Quantity * UnitPrice) AS Total_Sales_Value
-FROM SalesData
-GROUP By Product
-ORDER By Total_Sales_Value DESC
-```
 
 ### Customer Data: Subscription Service Analysis
 #### Objective
@@ -129,6 +104,33 @@ The customer data includes fields related to customer subscription behavior;
 - Active Subscription: The number of currently active subscriptions which is 41251.
 - Churn Rate: The percentage of customers who canceled their subscriptions which is ascertain to be 337.51%
 - Average Subscription Duration: The average time customers remain subscribed before cancellation, this is also calculated to be 365.
+
+#### Project Workflow:
+#### 1. Data Import and Cleaning (Excel)
+- Imported the sales database from Learning Management System (LMS)
+- Cleaned and transformed the data to ensure correct date formats and remove inconsistencies.
+- Created additional columns where necessary, such as duration.
+- Created pivot tables to calculate cancellation rates, subscription duration and customer retention metrics.
+
+#### 2. Data Querying (SQL)
+- Imported sales data into SQL database by converting into CSV files.
+- Developed SQL queries to extract relevant customer data, focusing on subscription start and end dates, cancellation statues, and regional data.
+- Example SQL query for identtifying active subscriptions and cancellations:
+```SQL
+SELECT Canceled, COUNT(CustomerID) AS TotalSubscriptions
+From CustomerData
+GROUP By Canceled
+```
+- Exported the query result to Power BI for further analysis.
+
+#### 3. Power BI Dashboard
+- Imported the cleaned data and SQL query results into Power BI.
+- Designed interactive visualisations.
+  1. A chart showing the top-selling products.
+  2. A regional heatmap illustrating the sales performance across regions.
+  3. A line grapgh to showcase montly sales trends and seasonal spikes.
+- Set up slicers for products categories and regions to filteer data dynamically.
+
 
 #### Data Collection & Preparation
 1. Source of Data: Spreadsheet and CSV files.
