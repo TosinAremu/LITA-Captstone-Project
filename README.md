@@ -9,7 +9,7 @@ This project outlines an analysis of two datasets-Sales Data and Customer Data. 
 #### Objective
 The objective of this project is to analyze the sales performance of a retail store, focus on uncovering key insights such as top-selling products, regional performance, and monthly sales trend. This data-driven approach will guides strategic decisions for improving sales performance across various regions and produts.
 
-#### Tools Used
+#### Tools Used:
 The folloiwing tools were used in completing the project.
 - Microsoft Excel: Used for initial dat exploration, summary statistics and simple visualisation.
 - SQL: Querying the database to extract sales data and aggregate results by product, region and time.
@@ -28,23 +28,36 @@ The sales data consists of the following fields;
   6. Socks - 40000 units
 - Price: The prices of each products varies according to the region they were sold.
 
-#### Key Metrics for Sales Data
+#### Key Metrics for Sales Data:
 - Total Sales: Aggregate revenue from all products across all regions. It is calculated by multiplying the quantity of products sold by their unit price.
 - Average Sales Per Product: Shows the average revenue for each product type, providing insights into the best-selling products.
 - Sales by Region: A regional breakdown of sales figure, useful for identifying high-performance regions and underperforming ones.
 - Sales by Month: This metrics tracks the number of products sold in each months, highlighting the demand for specific products in each months.
 - Revenue by Region: This is the revenue generated, showing the profitability of by each region.
 
+#### Project Workflow:
+#### 1. Data Import and Cleaning (Excel)
+- Imported the sales database from Learning Management System (LMS)
+- Cleaned and prepared the data by removing duplicates, handling missing values, and ensuring consistent formatting.
+- Created basic pivot tables and charts to identify initials trends.
+
+#### 2. Data Querying (SQL)
+- Imported sales data into SQL database by converting into CSV files.
+- Wrote SQL queries to retrieve the relevant sales data.
+- Aggregated sales data by product, region and time (monthly).
+- Example SQL query for monthly sales trend:
+```SQL
+SELECT OrderDate As Monthly_Sales, Sum(Quantity * UnitPrice) AS Monthly_Sales_Total
+FROM SalesData
+WHERE OrderDate LIKE '2024%'
+GROUP By OrderDate
+```
+
+
 #### Data Collection & Preparation
 1. Source of Data: CSV files, database exports, and spreadsheets containing sales data.
 2. Data Preparation: Cleaning the dataset to handle missing values, outliers, and inconsistent formats.
 3. Data Transformation: Creating additional columns where necessary, such as total sales by multiplying price and quantity.
-
-#### Analysis Techniques
-1. Excel: An excel formula and dash was created to provide a static and simple summary of key metrics. Pivot tables and slicers were used to visualize data such as the total sales by products, region and months figures.
-2. SQL Queries: SQL was utilized to aggregate and extract meaningful insights, such as total sales for each product category, the highest-selling product by total sales value, total revenue per product etc.
-3. Power BI Dashboard: A highly interactive Power BI was also developed, allowing users to filter sales data by region, product and time period. Key visuals include bar charts for top selling products and line charts for montly sales trends.
-
 
 #### Sales Analysis Approaches
 
@@ -113,12 +126,6 @@ The customer data includes fields related to customer subscription behavior;
 1. Source of Data: Spreadsheet and CSV files.
 2. Data Preparation: Remove any erroneous entries, handle missing dates, and ensure that the dates are in a usable format.
 3. Data Transformation: Calculate the duration of subscriptions and classify them as active or canceled based on the end date.
-
-#### Analysis Techniques
-1. Excel: An excel dash provided a more traditional view, with key metrics such as active subscriptions by region, revenue by region and subscription type by customers..
-2. SQL Queries: SQL was employed to explore customer data, including identifying customers by subscription type, calculating cancellations rate within 6 months, and tracking active vs. canceled subscriptions. Queries were created to segment customers by region and average subscription duration for all customers.
-3. Power BI Dashboard: An interactive Power BI was built to showcase customer behaviours patterns. Key visuals include pei charts for subscription types, bar charts showing cancellation rates per region, and line charts for monthly renewal trends.
-
 
 #### Customer Data Analysis Approaches
 
