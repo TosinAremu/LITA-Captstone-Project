@@ -77,6 +77,8 @@ GROUP By OrderDate
 - Objective: Assess the impact of pricing on sales volume.
 - Analysis: By comparing the price per unit to the number of units sold, this analysis examines price elasticity and its influence on customer purchasing decisions. Products with high demand but low unit prices can indicate potential for price adjustments.
 
+### Key Insights:
+
 ### Customer Data: Subscription Service Analysis
 #### Objective
 This project involves analyzing customer data for a subscription service to identify customer segments, track subscription types, and highlight trends in cancellations and renewals. The goal is to provide actionable insights into customer behaviour to help improve customer retention and optimize subscription offerings.
@@ -125,17 +127,12 @@ GROUP By Canceled
 
 #### 3. Power BI Dashboard
 - Imported the cleaned data and SQL query results into Power BI.
-- Designed interactive visualisations.
-  1. A chart showing the top-selling products.
-  2. A regional heatmap illustrating the sales performance across regions.
-  3. A line grapgh to showcase montly sales trends and seasonal spikes.
+- Designed an interactive  dashboard with the follwing visualisations.
+  1. A pie chart displaying the distribution of subscription types.
+  2. A line chart showing trends in cancellation over time.
+  3. A heatmap comparing regional subscription trends.
+  4. A bar chart illustrating customer retention rates segmented by subscription type.
 - Set up slicers for products categories and regions to filteer data dynamically.
-
-
-#### Data Collection & Preparation
-1. Source of Data: Spreadsheet and CSV files.
-2. Data Preparation: Remove any erroneous entries, handle missing dates, and ensure that the dates are in a usable format.
-3. Data Transformation: Calculate the duration of subscriptions and classify them as active or canceled based on the end date.
 
 #### Customer Data Analysis Approaches
 
@@ -150,6 +147,8 @@ GROUP By Canceled
 #### Regional Subscription Behaviour:
 - Objective: Compare subscription behaviour across region.
 - Analysis: Grouping customers by region and analyzing subscription types, cancellation rates, and average subscription duration helps identify geographic trends. This analysis can guide regional marketing efforts and localized retention campaingns.
+
+### Key Insights:
 
 
 
