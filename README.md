@@ -45,14 +45,22 @@ The sales data consists of the following fields;
 - Imported sales data into SQL database by converting into CSV files.
 - Wrote SQL queries to retrieve the relevant sales data.
 - Aggregated sales data by product, region and time (monthly).
-- Example SQL query for monthly sales trend:
+- Example SQL query for monthly sales totals for the current year:
 ```SQL
 SELECT OrderDate As Monthly_Sales, Sum(Quantity * UnitPrice) AS Monthly_Sales_Total
 FROM SalesData
 WHERE OrderDate LIKE '2024%'
 GROUP By OrderDate
 ```
+- Exported the query result to Power BI for further analysis.
 
+#### 3. Power BI Dashboard
+- Imported the cleaned data and SQL query results into Power BI.
+- Designed interactive visualisations.
+  1. A chart showing the top-selling products.
+  2. A regional heatmap illustrating the sales performance across regions.
+  3. A line grapgh to showcase montly sales trends and seasonal spikes.
+- Set up slicers for products categories and regions to filteer data dynamically.
 
 #### Data Collection & Preparation
 1. Source of Data: CSV files, database exports, and spreadsheets containing sales data.
