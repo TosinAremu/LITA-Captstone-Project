@@ -9,6 +9,12 @@ This project outlines an analysis of two datasets-Sales Data and Customer Data. 
 #### Objective
 The objective of this project is to analyze the sales performance of a retail store, focus on uncovering key insights such as top-selling products, regional performance, and monthly sales trend. This data-driven approach will guides strategic decisions for improving sales performance across various regions and produts.
 
+#### Tools Used
+The folloiwing tools were used in completing the project.
+- Microsoft Excel: Used for initial dat exploration, summary statistics and simple visualisation.
+- SQL: Querying the database to extract sales data and aggregate results by product, region and time.
+- Power BI: Interactive visualisations and dashboards to track sales trends, product performance and regional sales patterns.
+
 #### Sales Data Overview
 The sales data consists of the following fields;
 - Products: Gloves, Hat, Jacket, Shirt, Shoes, Socks.
@@ -78,6 +84,12 @@ ORDER By Total_Sales_Value DESC
 ### Customer Data: Subscription Service Analysis
 #### Objective
 This project involves analyzing customer data for a subscription service to identify customer segments, track subscription types, and highlight trends in cancellations and renewals. The goal is to provide actionable insights into customer behaviour to help improve customer retention and optimize subscription offerings.
+
+#### Tools Used
+The folloiwing tools were used in completing the project.
+- Microsoft Excel: Used for initial dat exploration, summary statistics and simple visualisation.
+- SQL: Querying the customer database to extract information on subscriptions and cancellations.
+- Power BI: Create interactive dashboards to visualize customer behaviour, segments subscriptions and track trends in renewals and cancellation.
 
 #### Customer Data Overview
 The customer data includes fields related to customer subscription behavior;
