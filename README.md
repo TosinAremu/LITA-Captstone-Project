@@ -27,6 +27,11 @@ The sales data consists of the following fields;
 2. Data Preparation: Cleaning the dataset to handle missing values, outliers, and inconsistent formats.
 3. Data Transformation: Creating additional columns where necessary, such as total sales by multiplying price and quantity.
 
+#### Analysis Techniques
+1. Excel: An excel formula and dash was created to provide a static and simple summary of key metrics. Pivot tables and slicers were used to visualize data such as the total sales by products, region and months figures.
+2. SQL Queries: SQL was utilized to aggregate and extract meaningful insights, such as total sales for each product category, the highest-selling product by total sales value, total revenue per product etc.
+3. Power BI Dashboard: A highly interactive Power BI was also developed, allowing users to filter sales data by region, product and time period. Key visuals include bar charts for top selling products and line charts for montly sales trends.
+
 #### Key Metrics for Sales Data
 - Total Sales: Aggregate revenue from all products across all regions. It is calculated by multiplying the quantity of products sold by their unit price.
 - Average Sales Per Product: Shows the average revenue for each product type, providing insights into the best-selling products.
@@ -47,6 +52,8 @@ The sales data consists of the following fields;
 #### 3. Price vs Quantity Analysis:
 - Objective: Assess the impact of pricing on sales volume.
 - Analysis: By comparing the price per unit to the number of units sold, this analysis examines price elasticity and its influence on customer purchasing decisions. Products with high demand but low unit prices can indicate potential for price adjustments.
+
+
 
 ```SQL
 SELECT Product, SUM(Quantity * UnitPrice) AS Total_Sales
@@ -88,6 +95,12 @@ The customer data includes fields related to customer subscription behavior;
 1. Source of Data: Spreadsheet and CSV files.
 2. Data Preparation: Remove any erroneous entries, handle missing dates, and ensure that the dates are in a usable format.
 3. Data Transformation: Calculate the duration of subscriptions and classify them as active or canceled based on the end date.
+
+#### Analysis Techniques
+1. Excel: An excel dash provided a more traditional view, with key metrics such as active subscriptions by region, revenue by region and subscription type by customers..
+2. SQL Queries: SQL was employed to explore customer data, including identifying customers by subscription type, calculating cancellations rate within 6 months, and tracking active vs. canceled subscriptions. Queries were created to segment customers by region and average subscription duration for all customers.
+3. Power BI Dashboard: An interactive Power BI was built to showcase customer behaviours patterns. Key visuals include pei charts for subscription types, bar charts showing cancellation rates per region, and line charts for monthly renewal trends.
+
 
 #### Key Metrics for Customer Data
 - Active Subscription: The number of currently active subscriptions which is 41251.
