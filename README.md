@@ -22,6 +22,13 @@ The sales data consists of the following fields;
   6. Socks - 40000 units
 - Price: The prices of each products varies according to the region they were sold.
 
+#### Key Metrics for Sales Data
+- Total Sales: Aggregate revenue from all products across all regions. It is calculated by multiplying the quantity of products sold by their unit price.
+- Average Sales Per Product: Shows the average revenue for each product type, providing insights into the best-selling products.
+- Sales by Region: A regional breakdown of sales figure, useful for identifying high-performance regions and underperforming ones.
+- Sales by Month: This metrics tracks the number of products sold in each months, highlighting the demand for specific products in each months.
+- Revenue by Region: This is the revenue generated, showing the profitability of by each region.
+
 #### Data Collection & Preparation
 1. Source of Data: CSV files, database exports, and spreadsheets containing sales data.
 2. Data Preparation: Cleaning the dataset to handle missing values, outliers, and inconsistent formats.
@@ -32,12 +39,6 @@ The sales data consists of the following fields;
 2. SQL Queries: SQL was utilized to aggregate and extract meaningful insights, such as total sales for each product category, the highest-selling product by total sales value, total revenue per product etc.
 3. Power BI Dashboard: A highly interactive Power BI was also developed, allowing users to filter sales data by region, product and time period. Key visuals include bar charts for top selling products and line charts for montly sales trends.
 
-#### Key Metrics for Sales Data
-- Total Sales: Aggregate revenue from all products across all regions. It is calculated by multiplying the quantity of products sold by their unit price.
-- Average Sales Per Product: Shows the average revenue for each product type, providing insights into the best-selling products.
-- Sales by Region: A regional breakdown of sales figure, useful for identifying high-performance regions and underperforming ones.
-- Sales by Month: This metrics tracks the number of products sold in each months, highlighting the demand for specific products in each months.
-- Revenue by Region: This is the revenue generated, showing the profitability of by each region.
 
 #### Sales Analysis Approaches
 
@@ -91,6 +92,11 @@ The customer data includes fields related to customer subscription behavior;
 |Cancellation|33751|NIL|
 |Active|NIL|41251|
 
+#### Key Metrics for Customer Data
+- Active Subscription: The number of currently active subscriptions which is 41251.
+- Churn Rate: The percentage of customers who canceled their subscriptions which is ascertain to be 337.51%
+- Average Subscription Duration: The average time customers remain subscribed before cancellation, this is also calculated to be 365.
+
 #### Data Collection & Preparation
 1. Source of Data: Spreadsheet and CSV files.
 2. Data Preparation: Remove any erroneous entries, handle missing dates, and ensure that the dates are in a usable format.
@@ -101,11 +107,6 @@ The customer data includes fields related to customer subscription behavior;
 2. SQL Queries: SQL was employed to explore customer data, including identifying customers by subscription type, calculating cancellations rate within 6 months, and tracking active vs. canceled subscriptions. Queries were created to segment customers by region and average subscription duration for all customers.
 3. Power BI Dashboard: An interactive Power BI was built to showcase customer behaviours patterns. Key visuals include pei charts for subscription types, bar charts showing cancellation rates per region, and line charts for monthly renewal trends.
 
-
-#### Key Metrics for Customer Data
-- Active Subscription: The number of currently active subscriptions which is 41251.
-- Churn Rate: The percentage of customers who canceled their subscriptions which is ascertain to be 337.51%
-- Average Subscription Duration: The average time customers remain subscribed before cancellation, this is also calculated to be 365.
 
 #### Customer Data Analysis Approaches
 
