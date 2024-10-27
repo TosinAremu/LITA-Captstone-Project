@@ -61,7 +61,7 @@ GROUP By OrderDate
   1. A chart showing the top-selling products.
   2. A regional heatmap illustrating the sales performance across regions.
   3. A line grapgh to showcase montly sales trends and seasonal spikes.
-- Set up slicers for products categories and regions to filteer data dynamically.
+- Set up slicers for products categories and regions to filter data dynamically.
 
 #### Sales Analysis Approaches
 
