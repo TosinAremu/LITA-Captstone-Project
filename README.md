@@ -132,7 +132,7 @@ GROUP By Canceled
   2. A line chart showing trends in cancellation over time.
   3. A heatmap comparing regional subscription trends.
   4. A bar chart illustrating customer retention rates segmented by subscription type.
-- Set up slicers for products categories and regions to filteer data dynamically.
+- Set up slicers for products categories and regions to filter data dynamically.
 
 #### Customer Data Analysis Approaches
 
