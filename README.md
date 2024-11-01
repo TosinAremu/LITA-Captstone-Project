@@ -115,6 +115,15 @@ There is a decline of 10% in sales compared to the previous year, indicating pot
 - Growth: -8%
 - Analysis: West had the smallest decrease among all regions, down by only 8%. While it’s still a decrease, the relative stability may indicate stronger customer retention or market strategies in this area.
 
+#### Sales by Month
+#### - Highs and Lows:
+- January recorded the highest sales of 1,000,000, which is a significant increase from $250,000 in the previous year (300% growth).
+- February saw a strong performance as well with 1,250,000 in sales, up from 1,000,000 in 2023 (20% growth).
+- Other months saw substantial drops, with several months (October to December) showing no sales at all, which heavily affects overall annual sales.
+
+#### - Monthly Trends:
+- There is an observable trend of sales peaking in the early months and gradually declining throughout the year, reaching zero in the last three months (October to December). This may indicate seasonality or possibly operational issues that prevented sales during the last quarter.
+
 ### Key Insights:
 
 ### Customer Data: Subscription Service Analysis
