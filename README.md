@@ -11,7 +11,7 @@ The objective of this project is to analyze the sales performance of a retail st
 
 #### Tools Used:
 The folloiwing tools were used in completing the project.
-- Microsoft Excel: Used for initial dat exploration, summary statistics and simple visualisation.
+- Microsoft Excel: Used for initial data exploration, summary statistics and simple visualisation.
 - SQL: Querying the database to extract sales data and aggregate results by product, region and time.
 - Power BI: Interactive visualisations and dashboards to track sales trends, product performance and regional sales patterns.
 
@@ -78,7 +78,12 @@ GROUP By OrderDate
 - Analysis: By comparing the price per unit to the number of units sold, this analysis examines price elasticity and its influence on customer purchasing decisions. Products with high demand but low unit prices can indicate potential for price adjustments.
 
 ### Data Analysis
-
+This is where functions like;
+- Averageif
+- Sumif
+- Sumproduct where used and
+- Pivot Tables to generate the dashboard below.
+  
 ![Excel Dashboard](https://github.com/user-attachments/assets/394987d1-ffb8-4ddc-aa90-5360def9df80)
 
 
