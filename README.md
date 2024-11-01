@@ -78,6 +78,38 @@ GROUP By OrderDate
 - Analysis: By comparing the price per unit to the number of units sold, this analysis examines price elasticity and its influence on customer purchasing decisions. Products with high demand but low unit prices can indicate potential for price adjustments.
 
 ### Data Analysis
+Based on the image of the Excel dashboard provided above, here is a detailed analysis:
+
+#### Overview of Sales Performance
+#### - Current Year Sales: 5,012,500
+Previous Year Sales: 5,575,000
+Year-over-Year (YoY) Growth: -10%
+There is a decline of 10% in sales compared to the previous year, indicating potential areas for improvement in the current strategy or external challenges impacting sales performance.
+
+#### Sales by Region
+#### 1. East:
+2024 Sales: $40,000
+2023 Sales: $62,500
+Growth: -36%
+Analysis: The East region saw the largest decrease in sales, down by 36%. This significant decline suggests that East may be facing specific issues, such as reduced market demand, increased competition, or ineffective sales strategies.
+North:
+
+2024 Sales: $27,500
+2023 Sales: $35,000
+Growth: -21%
+Analysis: North experienced a 21% decrease in sales. Although less severe than East, it still shows a notable drop, signaling a need for targeted improvements.
+South:
+
+2024 Sales: $50,000
+2023 Sales: $67,500
+Growth: -19%
+Analysis: South’s decline of 19% indicates it’s underperforming relative to the previous year. Addressing the causes here could mitigate further losses.
+West:
+
+2024 Sales: $27,500
+2023 Sales: $30,000
+Growth: -8%
+Analysis: West had the smallest decrease among all regions, down by only 8%. While it’s still a decrease, the relative stability may indicate stronger customer retention or market strategies in this area.
 
 ### Key Insights:
 
