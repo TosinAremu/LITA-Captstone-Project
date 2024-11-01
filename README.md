@@ -143,8 +143,6 @@ There is a decline of 10% in sales compared to the previous year, indicating pot
 
 4. Monthly Performance Consistency: Analyze why January and February had strong performances and apply insights from those months across the rest of the year. Understanding what drove early success can help replicate this in other months.
 
-5. Product Performance: Though the image doesn’t directly specify product sales, the dropdown filters for different products (Gloves, Hat, Jacket, etc.) suggest product-wise analysis may provide further insights. Investigating product-specific performance can help tailor marketing and inventory efforts.
-
 This analysis suggests a need for strategic adjustments across regions, enhanced customer engagement, and operational consistency to regain the growth and mitigate the losses observed in 2024.
 
 #### Product Performance
