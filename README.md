@@ -77,6 +77,8 @@ GROUP By OrderDate
 - Objective: Assess the impact of pricing on sales volume.
 - Analysis: By comparing the price per unit to the number of units sold, this analysis examines price elasticity and its influence on customer purchasing decisions. Products with high demand but low unit prices can indicate potential for price adjustments.
 
+### Data Analysis
+
 ### Key Insights:
 
 ### Customer Data: Subscription Service Analysis
