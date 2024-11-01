@@ -124,7 +124,37 @@ There is a decline of 10% in sales compared to the previous year, indicating pot
 #### - Monthly Trends:
 - There is an observable trend of sales peaking in the early months and gradually declining throughout the year, reaching zero in the last three months (October to December). This may indicate seasonality or possibly operational issues that prevented sales during the last quarter.
 
-### Key Insights:
+#### Top 10 Customers
+#### - The top 10 customers show varying growth rates:
+- Positive Growth: Only a few customers, such as Cus1151, Cus1375, Cus1488, and Cus1046, demonstrated positive growth, with Cus1046 showing the highest increase at 433%.
+- Negative Growth: Most customers have shown a decline in their purchases, with significant drops from Cus1067 (-2%), Cus1023 (-43%), and Cus1171 (-3%).
+- The high concentration of negative growth in key customers emphasizes the need for retention strategies and understanding the specific needs of these clients to regain their business.
+
+#### Sales Trend (Graph Analysis)
+- The trend graph illustrates a peak in sales during the initial months (January and February) with a steep decline thereafter, particularly visible in 2024.
+- The comparison of 2024 to 2023 shows that despite the strong start in 2024, it fails to maintain momentum, while 2023 showed a more consistent sales pattern throughout the year.
+
+#### Product Performance
+|Product |Average Sales|
+|--------|-------------|
+|Shirt|326.67|
+|Shoes|308.75|
+|Gloves|200.00|
+|Hat|158.75|
+|Jacket|140.00|
+|Socks|121.67|
+
+### Key Insights
+#### 1. Top Performaers:
+- Shirts have the highest average sales per product at 326.67, followed closely by Shoes at 308.75.
+- These products likely contribute significantly to overall sales. It may be beneficial to focus on promoting these items further, as they already have strong customer interest.
+
+#### 2. Mid-range Performers:
+- Gloves come in next with an average sale of 200. This is a significant step down from Shirts and Shoes but indicates steady demand.
+- Hats at 158.75 and Jackets at $140.00 are in a similar range, suggesting they have moderate but not outstanding performance.
+
+#### 3. Lowest Performer:
+- Socks have the lowest average sales at 121.67, indicating that they may not be as popular or are priced lower, impacting their average sales figure.
 
 ### Customer Data: Subscription Service Analysis
 #### Objective
