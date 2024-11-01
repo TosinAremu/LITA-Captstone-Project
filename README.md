@@ -78,10 +78,11 @@ GROUP By OrderDate
 - Analysis: By comparing the price per unit to the number of units sold, this analysis examines price elasticity and its influence on customer purchasing decisions. Products with high demand but low unit prices can indicate potential for price adjustments.
 
 ### Data Analysis
-This is where functions like;
+This is where basic functions in excel and DAX expressions were been used to do some calculations.
+Functions like;
 - Averageif
 - Sumif
-- Sumproduct where used and
+- Sumproduct and
 - Pivot Tables to generate the dashboard below.
   
 ![Excel Dashboard](https://github.com/user-attachments/assets/394987d1-ffb8-4ddc-aa90-5360def9df80)
