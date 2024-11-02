@@ -191,7 +191,7 @@ In summary, Shirts and Shoes are the strongest products in terms of average sale
 This project involves analyzing customer data for a subscription service to identify customer segments, track subscription types, and highlight trends in cancellations and renewals. The goal is to provide actionable insights into customer behaviour to help improve customer retention and optimize subscription offerings.
 
 #### Tools Used
-The folloiwing tools were used in completing the project.
+The folloiwing tools were used in completing the project. [Download Here](https://1drv.ms/x/c/2bde39261423f390/EXPKsSY3b4FNn4BQSWowEYwBgUGrEvWotWw6JasaeSd0pA?e=YV7fWV)
 - Microsoft Excel: Used for initial dat exploration, summary statistics and simple visualisation.
 - SQL: Querying the customer database to extract information on subscriptions and cancellations.
 - Power BI: Create interactive dashboards to visualize customer behaviour, segments subscriptions and track trends in renewals and cancellation.
