@@ -81,6 +81,8 @@ GROUP By OrderDate
 This is where basic functions in excel and DAX expressions were been used to do some calculations.
 Functions like;
 - Averageif
+- Average
+- Sum
 - Sumif
 - Sumproduct and
 - Pivot Tables to generate the dashboard below.
@@ -185,6 +187,8 @@ This analysis suggests a need for strategic adjustments across regions, enhanced
 3. Inventory Management: Based on demand trends suggested by average sales, adjusting inventory levels for each product can help optimize stock availability and reduce excess inventory for slower-moving items like Socks.
 
 In summary, Shirts and Shoes are the strongest products in terms of average sales, while Socks may require a revised strategy to improve performance.
+
+### Data Visualisation
 
 ### Customer Data: Subscription Service Analysis
 #### Objective
