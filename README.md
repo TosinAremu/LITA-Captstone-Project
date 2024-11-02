@@ -190,6 +190,39 @@ In summary, Shirts and Shoes are the strongest products in terms of average sale
 
 ### Data Visualisation
 
+This Power BI dashboard provides a comprehensive overview of retail store sales performance. Let’s break down each section of the dashboard to understand the insights it offers.
+
+#### Key Performance Indicators (KPIs)
+  1. Average Sales: The average sales value is displayed as 211.75, indicating the typical sale value per transaction or unit sold.
+  2. Total Sales: The total sales amount reaches 10,587,500, providing an overall measure of revenue generated.
+  3. Total Quantity: The total quantity sold is 345,000, showing the number of units sold across all products.
+
+#### Visualizations and Insights
+  1. Top Selling Product:
+  - The bar chart reveals that hats are the top-selling item with approximately 80K units sold, followed by shoes (73K), gloves (63K), and shirts (63K). Jackets are the least selling item with only 28K units.
+  - This information helps identify popular products, which can guide stock replenishment and marketing efforts.
+  2. Sales by Product and Region (Map Visualization):
+  - The map displays sales distribution by region for each product, color-coded by product type. This shows geographic patterns in product demand, though the specific numbers aren’t visible on the map.
+  - This insight allows the business to focus on regions with higher demand for certain products.
+  4. Sales by Month (Line Chart):
+  - The line chart depicts monthly sales trends, with notable peaks in February and May, while sales dip in later months, particularly around October to December.
+  - This seasonality insight can help in planning promotions, inventory, and marketing campaigns during high-demand months.
+  5. Product by Quantity (Pie Chart):
+  - This pie chart visualizes the distribution of quantities sold by product. Hats (orange) make up the largest segment, aligning with the bar chart in “Top Selling Product.”
+  - It provides a quick, at-a-glance understanding of how each product contributes to total quantity sold.
+  6. Sales by Region (Table):
+  - The table breaks down sales revenue by region. The East region leads with 2,450,000 in sales, followed by North at 1,950,000, and West at 1,512,500.
+  - This data highlights regional performance, which could help in allocating resources or tailoring regional marketing strategies.
+  7. Sales by Product (Pie Chart):
+  - The pie chart represents sales distribution by product category. Shoes appear to generate the highest sales value, followed by hats and gloves.
+  - This breakdown helps in understanding which products drive the most revenue, useful for prioritizing high-revenue items.
+
+#### Filters
+The dashboard includes filters for Region, Product, Year, and Month at the top, allowing for flexible and detailed analysis. Users can drill down into specific regions, products, or time periods to gain more targeted insights.
+
+### Overall Analysis
+This dashboard provides a well rounded view of sales performance, covering key metrics like total sales, quantity, and average sale value. It allows the user to identify top-selling products, understand regional sales distribution, and observe monthly sales trends. This data can guide strategic decisions related to inventory management, regional targeting, and promotional planning.
+
 ### Customer Data: Subscription Service Analysis
 #### Objective
 This project involves analyzing customer data for a subscription service to identify customer segments, track subscription types, and highlight trends in cancellations and renewals. The goal is to provide actionable insights into customer behaviour to help improve customer retention and optimize subscription offerings.
