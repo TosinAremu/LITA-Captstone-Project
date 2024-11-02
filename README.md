@@ -59,7 +59,7 @@ GROUP By OrderDate
 - Imported the cleaned data and SQL query results into Power BI.
 - Designed interactive visualisations.
   1. A chart showing the top-selling products.
-  2. A regional heatmap illustrating the sales performance across regions.
+  2. A regional map illustrating the sales performance across regions.
   3. A line grapgh to showcase montly sales trends and seasonal spikes.
 - Set up slicers for products categories and regions to filter data dynamically.
 
@@ -283,7 +283,7 @@ GROUP By Canceled
 - Designed an interactive  dashboard with the follwing visualisations.
   1. A pie chart displaying the distribution of subscription types.
   2. A line chart showing trends in cancellation over time.
-  3. A heatmap comparing regional subscription trends.
+  3. A map comparing regional subscription trends.
   4. A bar chart illustrating customer retention rates segmented by subscription type.
 - Set up slicers for products categories and regions to filter data dynamically.
 
