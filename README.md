@@ -189,7 +189,14 @@ This analysis suggests a need for strategic adjustments across regions, enhanced
 In summary, Shirts and Shoes are the strongest products in terms of average sales, while Socks may require a revised strategy to improve performance.
 
 ### Data Visualisation
-
+- The visuals used to generate the data below are;
+    1. Stacked column chart
+    2. Pie chart
+    3. Line chart
+    4. Map
+    5. Matrix
+    6. Slicer to filter
+    
 
 ![Sales Data Dashboard](https://github.com/user-attachments/assets/680c6345-998f-450d-a60d-eb86a844bc17)
 
