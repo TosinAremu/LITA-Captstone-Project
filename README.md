@@ -170,7 +170,7 @@ This analysis suggests a need for strategic adjustments across regions, enhanced
 
 #### 2. Mid-range Performers:
 - Gloves come in next with an average sale of 200. This is a significant step down from Shirts and Shoes but indicates steady demand.
-- Hats at 158.75 and Jackets at $140.00 are in a similar range, suggesting they have moderate but not outstanding performance.
+- Hats at 158.75 and Jackets at 140.00 are in a similar range, suggesting they have moderate but not outstanding performance.
 
 #### 3. Lowest Performer:
 - Socks have the lowest average sales at 121.67, indicating that they may not be as popular or are priced lower, impacting their average sales figure.
