@@ -11,7 +11,7 @@ The objective of this project is to analyze the sales performance of a retail st
 
 #### Tools Used:
 The folloiwing tools were used in completing the project.
-- Microsoft Excel: Used for initial data exploration, summary statistics and simple visualisation.
+- Microsoft Excel: Used for initial data exploration, summary statistics and simple visualisation. [Download Here](https://1drv.ms/x/c/2bde39261423f390/EXPKsSY3b4FNn4BQSWowEYwBgUGrEvWotWw6JasaeSd0pA?e=YV7fWV)
 - SQL: Querying the database to extract sales data and aggregate results by product, region and time.
 - Power BI: Interactive visualisations and dashboards to track sales trends, product performance and regional sales patterns.
 
