@@ -334,28 +334,21 @@ Here's a detailed analysis of the above dashboard;
 
 ![Power BI Customer Dashboard](https://github.com/user-attachments/assets/01a4cdb9-4ff8-4b27-8e66-94a64f43277f)
 
-Key Metrics:
+#### Key Metrics:
+1. Number of Customers: 20 customers.
+2. Total Revenue: Also shows 150 million.
+3. Average Subscription Duration: Shows 365 days.
+4. Total Subscriptions: Highlights a new metric of 75,000 total subscriptions.
+5. Cancellation Rate: Reports 1,998, which likely reflects the total number of cancellations or a cancellation metric.
 
-	1.	Number of Customers: Same as in the first image, with a total of 20.
-	2.	Total Revenue: Also shows 150 million.
-	3.	Average Subscription Duration: Shows 365 days, identical to the first image.
-	4.	Total Subscriptions: Highlights a new metric of 75,000 total subscriptions.
-	5.	Cancellation Rate: Reports 1,998, which likely reflects the total number of cancellations or a cancellation metric.
-
-Detailed Metrics:
-
-	•	Top Subscriptions by Type:
-	•	Displayed as a bar chart where Basic leads with 37,500 subscriptions, while Premium and Standard have 18,750 each.
-	•	Revenue by Subscription Type:
-	•	Shows a similar breakdown as the first image: Basic generates the most revenue at 75 million, followed by Premium and Standard, each contributing about 37 million.
-	•	Subscriptions by Region:
-	•	A pie chart indicates an even distribution of subscriptions across East, North, South, and West regions, each having 18,750 subscriptions, which matches the balanced regional revenue seen in Image 1.
-	•	Total Cancellations by Customer:
-	•	A table listing cancellations among customers. Each customer (e.g., Chris, Ella, Eva) has 3,750 cancellations, totaling 33,750.
-	•	Subscriptions by Status:
-	•	A pie chart shows the split between Active and Cancelled subscriptions. 45% (33,750) are active, while 55% (41,250) are cancelled.
-	•	Subscription Trend:
-	•	A line graph of revenue from January to September shows a similar trend to Image 1, with steady revenue from January to August (~15 million monthly) and a drop to around 7.5 million in September. This likely indicates a loss in revenue due to cancellations.
+#### Detailed Metrics:
+- Top Subscriptions by Type: Displayed as a bar chart where Basic leads with 37,500 subscriptions, while Premium and Standard have 18,750 each.
+- Revenue by Subscription Type: Shows a similar breakdown as the first image: Basic generates the most revenue at 75 million, followed by Premium and Standard, each contributing about 37 million.
+- Subscriptions by Region: A pie chart indicates an even distribution of subscriptions across East, North, South, and West regions, each having 18,750 subscriptions.
+- Total Cancellations by Customer: A table listing cancellations among customers. Each customer (e.g., Chris, Ella, Eva) has 3,750 cancellations, totaling 33,750.
+- Subscriptions by Status: A pie chart shows the split between Active and Cancelled subscriptions. 45% (33,750) are active, while 55% (41,250) are cancelled.
+- Subscription Trend: A line graph of revenue from January to September shows a similar trend to Image 1, with steady revenue from January to August (~15 million monthly) and a drop to around 7.5 million in September. 
+  This likely indicates a loss in revenue due to cancellations.
 
 Comparative Summary and Insights
 
