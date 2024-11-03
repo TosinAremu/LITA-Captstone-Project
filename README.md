@@ -339,7 +339,7 @@ Here's a detailed analysis of the above dashboard;
 2. Total Revenue: Also shows 150 million.
 3. Average Subscription Duration: Shows 365 days.
 4. Total Subscriptions: Highlights a new metric of 75,000 total subscriptions.
-5. Cancellation Rate: Reports 1,998, which likely reflects the total number of cancellations or a cancellation metric.
+5. Cancellation Rate: Reports 1,998, which likely reflects the total number of cancellations metric.
 
 #### Detailed Metrics:
 - Top Subscriptions by Type: Displayed as a bar chart where Basic leads with 37,500 subscriptions, while Premium and Standard have 18,750 each.
