@@ -355,16 +355,15 @@ Here's a detailed analysis of the above dashboard;
 2. Subscription Type Popularity: Both images highlight “Basic” as the top subscription type by revenue and subscription count, while Premium and Standard follow with almost identical numbers. This suggests that the Basic plan is either more affordable or offers popular features.
 3. Regional Analysis: Revenue and subscription counts are evenly distributed across East, North, South, and West, suggesting a balanced market reach across regions.
 4. Subscription Trend Analysis: Both dashboards display a steady revenue trend from January to August, followed by a sharp decline from September onward. This trend might point to a seasonal drop, an increased cancellation rate, or a major event affecting subscriptions.
-5. Cancellation Insights (Image 2 Exclusive): Image 2 includes additional data on cancellations:
-- The cancellation rate metric (1,998) and cancellation breakdown by customer show a high rate of churn, as over half of the subscriptions (55%) are cancelled.
+5. Cancellation Insights: The cancellation rate metric (1,998) and cancellation breakdown by customer show a high rate of churn, as over half of the subscriptions (55%) are cancelled.
 - The cancellation table provides a detailed view of cancellations per customer, all listed at 3,750, which likely reflects individual or batch cancellation processes impacting revenue.
-6. Subscription Status: Image 2’s pie chart on subscription status reveals a significant number of cancellations, with 55% of subscriptions marked as cancelled. This could be a critical insight for strategizing customer retention efforts.
+6. Subscription Status: The pie chart on subscription status reveals a significant number of cancellations, with 55% of subscriptions marked as cancelled. This could be a critical insight for strategizing customer retention efforts.
 
 ### Key Observations and Potential Recommendations
 - Retention Strategies: The high cancellation rate and the sudden revenue drop in September indicate a need for a customer retention strategy. Offering incentives for long-term commitments or loyalty rewards could help mitigate churn.
 - Analyzing Customer Preferences: The popularity of the Basic subscription suggests customers may prefer lower-cost or entry-level plans. An analysis of customer feedback on Premium and Standard plans could reveal ways to make these higher-tier plans more attractive.
 - Revenue Stabilization: The sharp revenue drop might indicate a cyclical trend or a unique event (such as a mass cancellation or downgrade in subscriptions). Proactive steps, like offering flexible downgrades or temporary discounts, could help maintain revenue stability.
-- Enhanced Cancellation Insights: The detailed cancellation data in Image 2 could be leveraged for targeted customer outreach. If specific patterns or customer groups show higher cancellations, targeted campaigns can address those groups’ needs.
+- Enhanced Cancellation Insights: The detailed cancellation data could be leveraged for targeted customer outreach. If specific patterns or customer groups show higher cancellations, targeted campaigns can address those groups’ needs.
 
 ### Conclusion
 Both projects demonstrate a strong ability to explore, analyze, and visualize data using a combination of SQL for querying, Power BI for creating dynamic dashboards, and Excel for additional reporting and analysis. The insights gained from these analyses provide valuable recommendations for improving sales performance and optimizing subscription services.
