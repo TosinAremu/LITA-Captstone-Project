@@ -283,8 +283,7 @@ GROUP By Canceled
 - Designed an interactive  dashboard with the follwing visualisations.
   1. A pie chart displaying the distribution of subscription types.
   2. A line chart showing trends in cancellation over time.
-  3. A map comparing regional subscription trends.
-  4. A bar chart illustrating customer retention rates segmented by subscription type.
+  3. A bar chart illustrating customer retention rates segmented by subscription type.
 - Set up slicers for products categories and regions to filter data dynamically.
 
 #### Customer Data Analysis Approaches
@@ -299,9 +298,40 @@ GROUP By Canceled
 
 #### Regional Subscription Behaviour:
 - Objective: Compare subscription behaviour across region.
-- Analysis: Grouping customers by region and analyzing subscription types, cancellation rates, and average subscription duration helps identify geographic trends. This analysis can guide regional marketing efforts and localized retention campaingns.
+- Analysis: Grouping customers by region and analyzing subscription types, cancellation rates, and average subscription duration helps identify geographic trends. This analysis can guide regional marketing efforts and
+  localized retention campaingns.
 
-### Key Insights:
+### Data Analysis
+
+![Excel Customer Dash](https://github.com/user-attachments/assets/fdcd0e96-fa4b-4568-a700-67f09af43500)
+
+Here's a detailed analysis of the above dashboard;
+
+#### Key Metrics:
+1. Average Subscription Days: Shows 365days, indicating that average customer remains subscribed for a year.
+2. Total Revenue (in millions): The total revenue is displayed as 150million approximately.
+3. Number of Customers: There are 20 customers in total.
+4. Top Subscription Type: The most popular type is "Basic"
+
+#### Detailed Metrics:
+- Total Revenue Breakdown: Regional revenue is divided almost equally among East, North, South and West, with each contributing approximately 37-38 million, summing to a total revenue of 149,819,686.
+- Top Customers by Revenue: Nine top customers are listed, each contributing around 7.5 million in revenue, with names like Alex, Anna, Dan, etc.
+- Revenue by Subscription:
+    1. Basic: Generates the highest revenue, around 74.75 million.
+    2. Premium: Contributes 37.58 million.
+    3. Standard: Also contributes 37.48 million, showing that Premium and Standard are almost equal in revenue but significantly lower than Basic.
+- Subscription Trend: The line graph displays revenue across months with a steady trend around 14-15 million from January to August, after which there is a significant drop to approximately 7.5 million. This could indicate cancellations or changes in subscription pricing.
+
+### Data Visualisation
+- The visuals used to generate the data below are;
+    1. Clustered bar chart
+    2. Pie chart
+    3. Line chart
+    4. donut
+    5. Matrix
+    6. Card
+    7. Slicer to filter
+
 
 ### Conclusion
 Both projects demonstrate a strong ability to explore, analyze, and visualize data using a combination of SQL for querying, Power BI for creating dynamic dashboards, and Excel for additional reporting and analysis. The insights gained from these analyses provide valuable recommendations for improving sales performance and optimizing subscription services.
