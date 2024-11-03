@@ -332,6 +332,9 @@ Here's a detailed analysis of the above dashboard;
     6. Card
     7. Slicer to filter
 
+![Power BI Customer Dashboard](https://github.com/user-attachments/assets/01a4cdb9-4ff8-4b27-8e66-94a64f43277f)
+
+
 
 ### Conclusion
 Both projects demonstrate a strong ability to explore, analyze, and visualize data using a combination of SQL for querying, Power BI for creating dynamic dashboards, and Excel for additional reporting and analysis. The insights gained from these analyses provide valuable recommendations for improving sales performance and optimizing subscription services.
