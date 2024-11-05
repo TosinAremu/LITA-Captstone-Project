@@ -60,7 +60,8 @@ GROUP By OrderDate
 - Designed interactive visualisations.
   1. A chart showing the top-selling products.
   2. A regional map illustrating the sales performance across regions.
-  3. A line grapgh to showcase montly sales trends and seasonal spikes.
+  3. A line chart to showcase montly sales trends and seasonal spikes.
+  4. A pie chart showing the sales by product and product by quantity.
 - Set up slicers for products categories and regions to filter data dynamically.
 
 #### Sales Analysis Approaches
@@ -232,6 +233,8 @@ The dashboard includes filters for Region, Product, Year, and Month at the top, 
 ### Overall Analysis
 This dashboard provides a well rounded view of sales performance, covering key metrics like total sales, quantity, and average sale value. It allows the user to identify top-selling products, understand regional sales distribution, and observe monthly sales trends. This data can guide strategic decisions related to inventory management, regional targeting, and promotional planning.
 
+
+
 ### Customer Data: Subscription Service Analysis
 #### Objective
 This project involves analyzing customer data for a subscription service to identify customer segments, track subscription types, and highlight trends in cancellations and renewals. The goal is to provide actionable insights into customer behaviour to help improve customer retention and optimize subscription offerings.
@@ -281,9 +284,12 @@ GROUP By Canceled
 #### 3. Power BI Dashboard
 - Imported the cleaned data and SQL query results into Power BI.
 - Designed an interactive  dashboard with the follwing visualisations.
-  1. A pie chart displaying the distribution of subscription types.
-  2. A line chart showing trends in cancellation over time.
-  3. A bar chart illustrating customer retention rates segmented by subscription type.
+  1. A pie chart displaying the distribution of subscription by region.
+  2. A line chart showing seasonal subscription trends over time.
+  3. A bar chart illustrating top subscriptions for the period.
+  4. A donut showcasing subscription by their status (Active or Cancelled)
+  5. A matrix showing total cancellation by customers
+  6. A line displaying subscription type by the profit they've generated over time.
 - Set up slicers for products categories and regions to filter data dynamically.
 
 #### Customer Data Analysis Approaches
