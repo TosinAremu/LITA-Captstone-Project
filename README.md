@@ -227,7 +227,7 @@ In summary, Shirts and Shoes are the strongest products in terms of average sale
   - The pie chart represents sales distribution by product category. Shoes appear to generate the highest sales value, followed by hats and gloves.
   - This breakdown helps in understanding which products drive the most revenue, useful for prioritizing high-revenue items.
 
-#### Filters
+### Filters
 The dashboard includes filters for Region, Product, Year, and Month at the top, allowing for flexible and detailed analysis. Users can drill down into specific regions, products, or time periods to gain more targeted insights.
 
 ### Overall Analysis
