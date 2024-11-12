@@ -45,7 +45,7 @@ The sales data consists of the following fields;
 #### 2. Data Querying (SQL)
 - Imported sales data into SQL database by converting into CSV files.
 - Wrote SQL queries to retrieve the relevant sales data.
-- Aggregated sales data by product, region and time (monthly).
+- Aggregated sales data by product, region and time (monthly). 
 - Example SQL query for monthly sales totals for the current year:
 ```SQL
 SELECT OrderDate As Monthly_Sales, Sum(Quantity * UnitPrice) AS Monthly_Sales_Total
